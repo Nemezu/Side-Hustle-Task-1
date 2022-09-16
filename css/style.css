@@ -1,0 +1,140 @@
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+section {
+  display: flex;
+  flex-direction: row;
+  background-color: aliceblue;
+}
+
+
+@font-face {
+  font-family: Norse-Bold;
+  src: url('Norsebold.otf');
+}
+
+.image {
+  background: url('halie-west-25xggax4bSA-unsplash.jpg');
+  background-size: 600px;
+  width: 30%;
+  height: 150vh;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.img-back {
+  height: 120px;
+  width: 600px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  margin-top: 200px;
+}
+
+
+.logo-img {
+  width: 80px;
+  height: 100px;
+  margin-top: 15px;
+}
+
+
+.img-back h1 {
+  text-align: center;
+  font-family: Norse-Bold;
+  font-size: 4rem;
+  color: white;
+  margin-top: 25px;
+}
+
+.top-info {
+  margin-top: 8rem;
+  width: 600px;
+  padding-left: 2rem;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.h3-2 {
+  margin-top: 40px;
+  font-family: sans-serif;
+}
+
+.head {
+  padding-left: 2rem;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  background-color: #fff;
+}
+
+.form-div {
+  background: aliceblue;
+}
+
+.form-details {
+  background-color: #fff;
+  width: 900px;
+  box-shadow: 0px 5px 3px -3px rgba(0, 0, 0, 0.45);
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  padding-left: 3rem;
+}
+
+input[type='text'],input[type='number'] {
+  width: 200px;
+  height: 27px;
+  border-radius: 5px;
+  border: 0.5px solid rgba(0, 0, 0, 0.5);
+  outline: none;
+  margin-bottom: 20px;
+}
+
+input[type='password'] {
+  border-color: red;
+  width: 200px;
+  height: 27px;
+  border-radius: 5px;
+  border: 0.5px solid rgba(0, 0, 0, 0.5);
+  outline: none;
+  margin-bottom: 20px;
+}
+
+input:focus {
+  border: none;
+  outline: 1px solid blue;
+}
+
+label {
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+#btn {
+  padding: 12px 25px;
+  background-color: #596D48;
+  border: none;
+  border-radius: 5px;
+  margin-left: 2rem;
+  margin-top: 40px;
+}
+
+.acct {
+  font-size: 15px;
+  color: black;
+  margin-left: 2rem;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+
+.acct span {
+  color: green;
+}
